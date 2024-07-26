@@ -1,7 +1,6 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-import 'package:loginui/theming/Styles/text_style.dart';
-
+import 'package:loginui/Core/theming/Styles/text_style.dart';
 
 class DontHaveAccountText extends StatelessWidget {
   const DontHaveAccountText({super.key});
@@ -17,12 +16,9 @@ class DontHaveAccountText extends StatelessWidget {
             style: TextStyles.font12greybold,
           ),
           TextSpan(
-            text: ' Register',
-            style: TextStyles.font12greenbold,
-           recognizer: TapGestureRecognizer()..onTap = () {
-             
-           }
-          ),
+              text: ' Register',
+              style: TextStyles.font12greenbold,
+              recognizer: TapGestureRecognizer()..onTap = () {}),
         ],
       ),
     );

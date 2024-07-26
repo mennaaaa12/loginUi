@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:loginui/Core/theming/Styles/text_style.dart';
 import 'package:loginui/Features/Home/UI/home.dart';
 import 'package:loginui/Features/login/widgets/button.dart';
-import 'package:loginui/theming/Styles/text_style.dart';
 
 class LoginButton extends StatelessWidget {
   const LoginButton({super.key});

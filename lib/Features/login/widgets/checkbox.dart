@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:loginui/theming/Colors/colors.dart';
-import 'package:loginui/theming/Styles/text_style.dart';
+import 'package:loginui/Core/theming/Colors/colors.dart';
+import 'package:loginui/Core/widgets/text_widget.dart';
 
 class CheckboxWidget extends StatefulWidget {
   const CheckboxWidget({super.key});
@@ -15,7 +15,9 @@ class _CheckboxWidgetState extends State<CheckboxWidget> {
   @override
   Widget build(BuildContext context) {
     return CheckboxListTile(
-      title: Text('Remember me', style: TextStyles.font12greybold),
+      title: const TextWidget(
+        text: 'Remember me',
+      ),
       value: isRememberMeChecked,
       onChanged: (newValue) {
         setState(() {

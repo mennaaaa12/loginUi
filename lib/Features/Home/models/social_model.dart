@@ -1,7 +1,6 @@
 class SocialModel {
   final String image;
- const SocialModel({
+  const SocialModel({
     required this.image,
   });
 }
-

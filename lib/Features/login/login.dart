@@ -11,8 +11,7 @@ class LoginApp extends StatefulWidget {
   const LoginApp({super.key});
 
   @override
-  // ignore: library_private_types_in_public_api
-  _LoginAppState createState() => _LoginAppState();
+  State<LoginApp> createState() => _LoginAppState();
 }
 
 class _LoginAppState extends State<LoginApp> {

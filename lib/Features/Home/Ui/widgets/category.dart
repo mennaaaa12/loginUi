@@ -8,9 +8,9 @@ class CategoryWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  Padding(
-      padding:  EdgeInsets.only(right: 10.w,top: 16.h),
-      child:  CircleAvatar(
+    return Padding(
+      padding: EdgeInsets.only(right: 10.w, top: 16.h),
+      child: CircleAvatar(
         backgroundImage: AssetImage(category.image),
         radius: 50,
       ),
